@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center; /* Centralizar horizontalmente */
+    align-items: center; /* Centralizar verticalmente */
+    height: 100vh;
+    background-image: url('images.png'); /* Substitua 'sua-imagem-de-fundo.jpg' pelo caminho para sua imagem de fundo */
+    background-size: cover; /* Ajustar a imagem de fundo ao tamanho da janela do navegador */
+    background-repeat: no-repeat; /* Evitar a repetição da imagem */
+    background-attachment: fixed; /* Fixar a imagem de fundo, para que ela não role com a página */
+    background-color: gainsboro;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#container {
+    
+    background-color: rgb(255, 255, 255);  
+    width: 95%;
+    padding: 50px;
+    box-shadow: 0px 0px 10px rgba(24, 0, 80, 0.2); /* Sombra leve */
+    border-radius: 50px;
+}
+
+.none {
+    display: none;
+}
+
+input.rounded-input {
+    border: 1px solid #ccc;
+    border-radius: 23px;
+    padding: 4px;
+    float: right;
+    width: 59%; 
+}
+
+input.btn-limpar {
+    background-color: rgb(242, 130, 32);
+    color: rgb(103, 250, 238);
+    border: none;
+    float: right;
+    padding: 10px 10px;
+    border-radius: 20px;
+    margin-top: 1px;
+    margin-right: 3px;
+}
